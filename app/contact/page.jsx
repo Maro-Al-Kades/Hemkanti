@@ -170,7 +170,7 @@ const Contact = () => {
             <div className="mt-8 text-center">
               <p className="text-gray-700 text-lg font-medium">
                 <span className="font-bold text-[#BF6159]">Email:</span>{" "}
-                support@hemkanti.com
+                support@hemkanti.care
               </p>
               <p className="text-gray-700 text-lg font-medium mt-4">
                 <span className="font-bold text-[#BF6159]">Phone:</span> +919405631363

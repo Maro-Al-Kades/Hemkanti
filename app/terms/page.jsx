@@ -165,10 +165,10 @@ const TermsAndConditions = () => {
                 <div className="flex items-center space-x-2 text-amber-800">
                   <Mail className="h-5 w-5" />
                   <a 
-                    href="mailto:support@hemkanti.com"
+                    href="mailto:support@hemkanti.care"
                     className="text-amber-900 hover:text-amber-700 underline"
                   >
-                    support@hemkanti.com
+                    support@hemkanti.care
                   </a>
                 </div>
               </div>

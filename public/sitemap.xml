@@ -1,31 +1,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hemkanti.com/</loc>
+    <loc>https://hemkanti.care/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://hemkanti.com/about</loc>
+    <loc>https://hemkanti.care/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hemkanti.com/services</loc>
+    <loc>https://hemkanti.care/services</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hemkanti.com/products</loc>
+    <loc>https://hemkanti.care/products</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hemkanti.com/blog</loc>
+    <loc>https://hemkanti.care/blog</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://hemkanti.com/contact</loc>
+    <loc>https://hemkanti.care/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

@@ -42,7 +42,7 @@ const generateTemplate = (type, data) => {
               <h3>Your Message:</h3>
               <p>${data.message}</p>
             </div>
-            <a href="https://www.hemkanti.com" class="button">Visit Our Website</a>
+            <a href="https://www.hemkanti.care" class="button">Visit Our Website</a>
           </div>
         </div>
       </body>
@@ -96,7 +96,7 @@ export async function POST(request) {
 
     // Prepare email options for the user
     const userMailOptions = {
-      from: 'support@hemkanti.com',
+      from: 'support@hemkanti.care',
       to: email,
       subject: `Thank you for contacting Hemkanti Clinics, ${name}`,
       html: generateTemplate('user', { name, message }),
@@ -104,8 +104,8 @@ export async function POST(request) {
 
     // Prepare email options for the admin
     const adminMailOptions = {
-      from: 'support@hemkanti.com',
-      to: 'admin@hemkanti.com',
+      from: 'support@hemkanti.care',
+      to: 'admin@hemkanti.care',
       subject: `New Contact Form Submission from ${name}`,
       html: generateTemplate('admin', { name, email, message }),
     };

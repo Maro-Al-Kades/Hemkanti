@@ -68,12 +68,12 @@ const PrivacyPolicy = () => {
         <div className="bg-white rounded-lg shadow-lg">
           <div className="p-6">
             <h1 className="text-3xl font-bold text-center text-amber-900 mb-8">
-              Privacy Policy for Hemkanti.com
+              Privacy Policy for hemkanti.care
             </h1>
             
             <div className="prose max-w-none">
               <p className="text-lg text-amber-800 mb-8">
-                At Hemkanti.com, we value your privacy and are committed to protecting your personal information. 
+                At hemkanti.care, we value your privacy and are committed to protecting your personal information. 
                 This Privacy Policy outlines how we collect, use, and safeguard your data when you use our website.
               </p>
 
@@ -110,10 +110,10 @@ const PrivacyPolicy = () => {
                 <div className="flex items-center space-x-2 text-amber-800">
                   <Mail className="h-5 w-5" />
                   <a 
-                    href="mailto:support@hemkanti.com"
+                    href="mailto:support@hemkanti.care"
                     className="text-amber-900 hover:text-amber-700 underline"
                   >
-                    support@hemkanti.com
+                    support@hemkanti.care
                   </a>
                 </div>
               </div>

@@ -76,7 +76,7 @@ export default function Footer() {
             <li>📍Hemkanti Clinics</li>
               <li> Off No:207, Commerce Centre,Shivar Garden Road, Pimple Saudagar, Pune, (MH),India -411017</li>
             <li>📞 +91 9405631363</li>
-            <li>✉️ info@hemkanti.com</li>
+            <li>✉️ info@hemkanti.care</li>
             <li>⏰ Tue - Sun: 11:00 AM - 8:00 PM</li>
           </ul>
         </div>

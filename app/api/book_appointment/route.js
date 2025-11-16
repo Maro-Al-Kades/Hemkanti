@@ -49,7 +49,7 @@ export async function POST(req) {
           </div>
           <div class="footer">
             <p>Hemkanti Clinics, Pimple Saudagar, Pune</p>
-            <p>Phone: +919405631363 | Email: support@hemkanti.com</p>
+            <p>Phone: +919405631363 | Email: support@hemkanti.care</p>
           </div>
         </div>
       </body>
@@ -100,7 +100,7 @@ export async function POST(req) {
 
     // Send email to the user
     await transporter.sendMail({
-      from: 'support@hemkanti.com',
+      from: 'support@hemkanti.care',
       to: email,
       subject: 'Appointment Confirmation - Hemkanti Clinics',
       html: userTemplate,
@@ -108,8 +108,8 @@ export async function POST(req) {
 
     // Send email to the admin
     await transporter.sendMail({
-      from: 'support@hemkanti.com',
-      to: 'support@hemkanti.com',
+      from: 'support@hemkanti.care',
+      to: 'support@hemkanti.care',
       subject: `New Appointment - ${service}`,
       html: adminTemplate,
     });

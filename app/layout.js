@@ -23,7 +23,7 @@ export const metadata = {
     description:
       "Experience healing and glowing skin with our specialized skincare treatments.",
     image: "/images/home/high.jpg", // Add a proper Open Graph image
-    url: "https://www.hemkanti.com", // Update with actual URL
+    url: "https://www.hemkanti.care", // Update with actual URL
     siteName: "Hemkanti Skincare Clinics",
     type: "website",
   },
