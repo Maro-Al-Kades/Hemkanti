@@ -1,0 +1,643 @@
+{
+  "categories": {
+    "Skin": {
+      "icon": "💅",
+      "description": "Professional beauty treatments",
+      "services": [
+        {
+          "id": "cos-1",
+          "name": "Skin Polishing",
+          "icon": "✨",
+          "description": "Give your skin a fresh glow with our skin polishing service.",
+          "longDescription": "Our skin polishing treatment removes dead skin cells, leaving your skin feeling smooth, rejuvenated, and radiant.",
+          "rating": 4.8,
+          "price": 99,
+          "duration": "60 min",
+          "benefits": ["Smooth skin", "Glowing complexion", "Exfoliation"],
+          "availableSlots": ["Morning", "Afternoon", "Evening"]
+        },
+        {
+          "id": "cos-2",
+          "name": "Chemical Peels",
+          "icon": "🍊",
+          "description": "Renew and refresh your skin with a rejuvenating chemical peel.",
+          "longDescription": "Our chemical peel treatments help to reduce acne scars, fine lines, and pigmentation, revealing a fresher, smoother complexion.",
+          "rating": 4.7,
+          "price": 129,
+          "duration": "75 min",
+          "benefits": ["Skin renewal", "Acne scar treatment", "Brightening"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "cos-3",
+          "name": "Microneedling",
+          "icon": "🔬",
+          "description": "Stimulate collagen production with microneedling.",
+          "longDescription": "This treatment involves tiny needles that stimulate collagen production, improving skin texture, tone, and reducing wrinkles.",
+          "rating": 4.9,
+          "price": 159,
+          "duration": "90 min",
+          "benefits": ["Collagen boost", "Wrinkle reduction", "Skin rejuvenation"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "cos-4",
+          "name": "Mesotherapy of Skin",
+          "icon": "💉",
+          "description": "Nourish and hydrate your skin with mesotherapy.",
+          "longDescription": "Mesotherapy delivers a combination of vitamins, enzymes, and hyaluronic acid to rejuvenate and hydrate your skin, promoting a youthful look.",
+          "rating": 4.8,
+          "price": 199,
+          "duration": "60 min",
+          "benefits": ["Hydration", "Skin rejuvenation", "Anti-aging"],
+          "availableSlots": ["Morning", "Afternoon", "Evening"]
+        },
+        {
+          "id": "cos-5",
+          "name": "Medifacials",
+          "icon": "💆‍♀️",
+          "description": "Professional facials with medical-grade products.",
+          "longDescription": "Medifacials are customized facials using advanced techniques and medical-grade products for deep skin hydration and rejuvenation.",
+          "rating": 4.7,
+          "price": 139,
+          "duration": "60 min",
+          "benefits": ["Deep hydration", "Skin rejuvenation", "Targeted treatment"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "cos-6",
+          "name": "Wart/Mole/Skin Tag Removal",
+          "icon": "⚡",
+          "description": "Remove warts, moles, and skin tags safely and effectively.",
+          "longDescription": "We use advanced techniques to safely and effectively remove unwanted warts, moles, and skin tags with minimal downtime.",
+          "rating": 4.6,
+          "price": 79,
+          "duration": "30 min",
+          "benefits": ["Quick recovery", "Safe removal", "Non-invasive"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "cos-7",
+          "name": "IV Drip for Skin Whitening",
+          "icon": "💧",
+          "description": "Boost your skin radiance with our IV drip treatment.",
+          "longDescription": "Our IV drip treatment provides essential vitamins and antioxidants to lighten and brighten the skin, giving you a radiant glow.",
+          "rating": 4.9,
+          "price": 199,
+          "duration": "45 min",
+          "benefits": ["Skin whitening", "Radiant glow", "Vitamin boost"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "cos-8",
+          "name": "Anti-Aging Treatment",
+          "icon": "⏳",
+          "description": "Fight signs of aging with our advanced anti-aging treatments.",
+          "longDescription": "Our anti-aging treatments focus on reducing wrinkles, improving skin elasticity, and enhancing your youthful appearance.",
+          "rating": 4.8,
+          "price": 179,
+          "duration": "60 min",
+          "benefits": ["Wrinkle reduction", "Skin firming", "Youthful appearance"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "cos-9",
+          "name": "Bridal and Groom Preparation",
+          "icon": "💍",
+          "description": "Get ready for the big day with our bridal and groom preparation packages.",
+          "longDescription": "Our bridal and groom packages include skin care, hair care, and relaxation treatments to ensure you look and feel your best on your special day.",
+          "rating": 5.0,
+          "price": 299,
+          "duration": "90 min",
+          "benefits": ["Skin glow", "Relaxation", "Grooming"],
+          "availableSlots": ["Morning", "Afternoon", "Evening"]
+        },
+          {
+    "id": "cos-10",
+    "name": "Botox",
+    "icon": "💉",
+    "description": "Smooth out wrinkles and fine lines with our Botox treatments.",
+    "longDescription": "Our Botox treatments help reduce wrinkles and fine lines, providing a youthful and refreshed appearance. Performed by experienced professionals for natural-looking results.",
+    "rating": 4.8,
+    "price": 250,
+    "duration": "45 min",
+    "benefits": ["Wrinkle reduction", "Youthful appearance", "Non-surgical"],
+    "availableSlots": ["Morning", "Afternoon", "Evening"]
+  },
+  {
+    "id": "cos-11",
+    "name": "Fillers",
+    "icon": "💉",
+    "description": "Restore volume and enhance facial contours with Fillers.",
+    "longDescription": "Our Fillers add volume, enhance facial features, and smooth out lines for a more youthful and rejuvenated look. Customized to your unique facial structure.",
+    "rating": 4.9,
+    "price": 350,
+    "duration": "60 min",
+    "benefits": ["Volume enhancement", "Facial contouring", "Instant results"],
+    "availableSlots": ["Morning", "Afternoon", "Evening"]
+  },
+  {
+    "id": "cos-12",
+    "name": "Threads",
+    "icon": "🧵",
+    "description": "A non-surgical facelift using dissolvable threads for a lifted look.",
+    "longDescription": "Our Threads procedure tightens and lifts sagging skin without surgery. It stimulates collagen production for long-term skin rejuvenation and firmness.",
+    "rating": 4.7,
+    "price": 600,
+    "duration": "90 min",
+    "benefits": ["Skin lifting", "Collagen stimulation", "Minimal downtime"],
+    "availableSlots": ["Morning", "Afternoon", "Evening"]
+  },
+  {
+    "id": "cos-13",
+    "name": "Hair Transplant",
+    "icon": "🦰",
+    "description": "Regain a fuller head of hair with advanced Hair Transplant techniques.",
+    "longDescription": "Our Hair Transplant procedures use state-of-the-art techniques like FUE and FUT to restore natural hair growth, ensuring long-lasting and natural-looking results.",
+    "rating": 4.9,
+    "price": 2000,
+    "duration": "4-8 hours",
+    "benefits": ["Permanent hair restoration", "Natural look", "Boost confidence"],
+    "availableSlots": ["Morning", "Afternoon"]
+  }
+      ]
+    }
+,
+
+
+    "Aesthetic Gynecology": {
+      "icon": "💁‍♀️",
+      "description": "Specialized treatments for women's intimate health and beauty.",
+      "services": [
+        {
+          "id": "gyneco-2",
+          "name": "Vaginal Rejuvenation",
+          "icon": "🌸",
+          "description": "Restore your vaginal health and youthful appearance.",
+          "longDescription": "Our vaginal rejuvenation treatments use advanced techniques to tighten, tone, and enhance the vaginal area.",
+          "rating": 4.9,
+          "price": 349,
+          "duration": "75 min",
+          "benefits": ["Tightening", "Improved sensation", "Increased confidence"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+
+        {
+          "id": "gyneco-4",
+          "name": "Mommy Makeover",
+          "icon": "👗",
+          "description": "Restore your pre-pregnancy body with our mommy makeover package.",
+          "longDescription": "Our mommy makeover includes body contouring and other treatments to restore your confidence and youthful appearance.",
+          "rating": 4.9,
+          "price": 699,
+          "duration": "120 min",
+          "benefits": ["Body contouring", "Enhanced confidence", "Post-pregnancy recovery"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "gyneco-5",
+          "name": "Menopausal Conditions",
+          "icon": "⚖️",
+          "description": "Manage symptoms of menopause with tailored treatments.",
+          "longDescription": "Our treatments for menopausal conditions focus on hormone balancing and symptom relief to help you feel your best.",
+          "rating": 4.8,
+          "price": 249,
+          "duration": "60 min",
+          "benefits": ["Symptom relief", "Hormone balancing", "Increased comfort"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "gyneco-6",
+          "name": "Breast Lift",
+          "icon": "💃",
+          "description": "Lift and rejuvenate your breasts for a youthful appearance.",
+          "longDescription": "Our breast lift procedures help restore firmness and position for a more youthful and lifted appearance.",
+          "rating": 4.8,
+          "price": 499,
+          "duration": "90 min",
+          "benefits": ["Firm breasts", "Enhanced shape", "Youthful appearance"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "gyneco-7",
+          "name": "Breast Rejuvenation",
+          "icon": "💖",
+          "description": "Rejuvenate and enhance the appearance of your breasts.",
+          "longDescription": "Our breast rejuvenation treatments focus on improving texture and enhancing overall appearance.",
+          "rating": 4.9,
+          "price": 499,
+          "duration": "75 min",
+          "benefits": ["Enhanced texture", "Youthful look", "Firmness"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "gyneco-8",
+          "name": "Stretchmark Treatment",
+          "icon": "📍",
+          "description": "Reduce and remove stretchmarks for smoother, even skin.",
+          "longDescription": "Our stretchmark treatments target scars, reducing their appearance and promoting smoother skin.",
+          "rating": 4.7,
+          "price": 179,
+          "duration": "60 min",
+          "benefits": ["Stretchmark reduction", "Smoother skin", "Improved texture"],
+          "availableSlots": ["Morning", "Afternoon"]
+        }
+      ]
+    }
+,
+     "Hair": {
+      "icon": "💇‍♀️",
+      "description": "Professional treatments for hair restoration and rejuvenation.",
+      "services": [
+        {
+          "id": "hair-1",
+          "name": "Male Pattern Hair Loss",
+          "icon": "🧔",
+          "description": "Treat male pattern hair loss with advanced solutions.",
+          "longDescription": "Our treatment for male pattern hair loss helps slow or stop hair thinning and promotes hair growth with targeted therapies.",
+          "rating": 4.7,
+          "price": 399,
+          "duration": "90 min",
+          "benefits": ["Slows hair loss", "Promotes hair growth", "Improves hair density"],
+          "availableSlots": ["Morning", "Afternoon", "Evening"]
+        },
+        {
+          "id": "hair-2",
+          "name": "Female Pattern Hair Loss",
+          "icon": "👩‍🦰",
+          "description": "Restore hair volume and strength for female pattern hair loss.",
+          "longDescription": "Our treatment for female pattern hair loss focuses on restoring volume and thickness using advanced techniques tailored for women.",
+          "rating": 4.8,
+          "price": 429,
+          "duration": "90 min",
+          "benefits": ["Increased volume", "Hair thickening", "Restores hair strength"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "hair-3",
+          "name": "Hair PRP",
+          "icon": "💉",
+          "description": "Regrow hair with Platelet-Rich Plasma (PRP) therapy.",
+          "longDescription": "Hair PRP therapy involves injecting your own platelets into your scalp to stimulate hair growth and restore hair health.",
+          "rating": 4.9,
+          "price": 499,
+          "duration": "75 min",
+          "benefits": ["Stimulates hair growth", "Strengthens hair follicles", "Restores scalp health"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "hair-4",
+          "name": "Hair Mesotherapy",
+          "icon": "🌿",
+          "description": "Revitalize hair with mesotherapy for nourishment and growth.",
+          "longDescription": "Hair Mesotherapy involves delivering essential nutrients, vitamins, and growth factors directly to the scalp to boost hair growth and prevent hair loss.",
+          "rating": 4.8,
+          "price": 459,
+          "duration": "90 min",
+          "benefits": ["Hair revitalization", "Increased thickness", "Prevents hair loss"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "hair-5",
+          "name": "Dandruff Treatment",
+          "icon": "❄️",
+          "description": "Treat dandruff and scalp irritation effectively.",
+          "longDescription": "Our dandruff treatments address scalp irritation, flaking, and dryness to restore a healthy, balanced scalp.",
+          "rating": 4.6,
+          "price": 79,
+          "duration": "45 min",
+          "benefits": ["Reduced dandruff", "Healthier scalp", "Moisturized hair"],
+          "availableSlots": ["Morning", "Afternoon"]
+        }
+      ]
+    },
+    "Laser": {
+      "icon": "🔦",
+      "description": "Advanced laser treatments for skin and hair rejuvenation.",
+      "services": [
+        {
+          "id": "laser-1",
+          "name": "Laser Hair Reduction",
+          "icon": "🧑‍🔬",
+          "description": "Permanent hair reduction with laser technology.",
+          "longDescription": "Laser hair reduction is a safe and effective method to permanently reduce unwanted hair. The laser targets hair follicles, preventing further growth.",
+          "rating": 4.8,
+          "price": 249,
+          "duration": "60 min",
+          "benefits": ["Permanent hair reduction", "Smooth skin", "Safe and effective"],
+          "availableSlots": ["Morning", "Afternoon", "Evening"]
+        },
+        {
+          "id": "laser-2",
+          "name": "Skin Brightening",
+          "icon": "✨",
+          "description": "Enhance your skin’s radiance with laser skin brightening.",
+          "longDescription": "Laser skin brightening helps to even out skin tone and reduce dark spots, pigmentation, and acne scars, revealing a luminous complexion.",
+          "rating": 4.7,
+          "price": 199,
+          "duration": "75 min",
+          "benefits": ["Even skin tone", "Brightens complexion", "Reduces pigmentation"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "laser-3",
+          "name": "Tattoo Removal",
+          "icon": "🖋️",
+          "description": "Remove unwanted tattoos with laser precision.",
+          "longDescription": "Tattoo removal with laser technology breaks down tattoo pigments, allowing your body to naturally eliminate them, leading to clearer skin.",
+          "rating": 4.9,
+          "price": 349,
+          "duration": "90 min",
+          "benefits": ["Effective removal", "Minimal scarring", "Quick recovery"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "laser-4",
+          "name": "Hyperpigmentation Treatment",
+          "icon": "🌚",
+          "description": "Treat hyperpigmentation and dark spots with laser technology.",
+          "longDescription": "Laser treatment for hyperpigmentation targets dark spots and uneven pigmentation, improving skin tone and texture for a brighter, more even complexion.",
+          "rating": 4.8,
+          "price": 229,
+          "duration": "75 min",
+          "benefits": ["Reduces dark spots", "Evens skin tone", "Promotes skin rejuvenation"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "laser-5",
+          "name": "Melasma Treatment",
+          "icon": "☀️",
+          "description": "Reduce melasma and sun-induced pigmentation with laser therapy.",
+          "longDescription": "Laser treatment for melasma helps fade dark patches caused by sun exposure or hormonal changes, restoring a more uniform skin tone.",
+          "rating": 4.7,
+          "price": 219,
+          "duration": "80 min",
+          "benefits": ["Reduces pigmentation", "Restores even skin tone", "Non-invasive"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "laser-6",
+          "name": "Birthmark Removal",
+          "icon": "👶",
+          "description": "Safely remove birthmarks using advanced laser treatments.",
+          "longDescription": "Laser birthmark removal targets the pigmentation of the mark to safely break it down, leaving the skin clearer and more uniform in appearance.",
+          "rating": 4.8,
+          "price": 259,
+          "duration": "70 min",
+          "benefits": ["Removes birthmarks", "Non-invasive", "Quick recovery"],
+          "availableSlots": ["Morning", "Afternoon", "Evening"]
+        }
+      ]
+    },
+    "Homeopathy": {
+      "icon": "⚕️",
+      "description": "Holistic homeopathic treatments for a wide range of conditions.",
+      "services": [
+        {
+          "id": "homeo-1",
+          "name": "Allergies",
+          "icon": "🌿",
+          "description": "Relieve symptoms of various allergies with homeopathy.",
+          "longDescription": "Our homeopathic treatment for allergies helps reduce symptoms like sneezing, itching, and congestion without the side effects of conventional medicine.",
+          "rating": 4.8,
+          "price": 49,
+          "duration": "30 min",
+          "benefits": ["Natural relief", "No side effects", "Long-term benefits"],
+          "availableSlots": ["Morning", "Afternoon", "Evening"]
+        },
+        {
+          "id": "homeo-2",
+          "name": "Asthma",
+          "icon": "🌬️",
+          "description": "Treat asthma symptoms and improve respiratory health.",
+          "longDescription": "Our homeopathic treatment for asthma aims to reduce inflammation and improve breathing without the need for harsh medications.",
+          "rating": 4.7,
+          "price": 69,
+          "duration": "45 min",
+          "benefits": ["Improved breathing", "Reduced inflammation", "Natural treatment"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "homeo-3",
+          "name": "Tonsillitis",
+          "icon": "🦷",
+          "description": "Homeopathic remedies for tonsillitis to soothe inflammation and pain.",
+          "longDescription": "Our homeopathic treatment for tonsillitis targets the underlying causes of infection and reduces throat inflammation without antibiotics.",
+          "rating": 4.6,
+          "price": 59,
+          "duration": "30 min",
+          "benefits": ["Pain relief", "Reduced swelling", "Faster recovery"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "homeo-4",
+          "name": "Bronchitis",
+          "icon": "💨",
+          "description": "Alleviate bronchitis symptoms with natural homeopathic remedies.",
+          "longDescription": "Homeopathic treatment for bronchitis can help reduce coughing, clear mucus, and soothe inflammation in the lungs.",
+          "rating": 4.7,
+          "price": 79,
+          "duration": "45 min",
+          "benefits": ["Cough relief", "Clearer airways", "Natural anti-inflammatory"],
+          "availableSlots": ["Morning", "Afternoon", "Evening"]
+        },
+        {
+          "id": "homeo-5",
+          "name": "Migraine",
+          "icon": "🤕",
+          "description": "Get relief from migraine attacks with homeopathy.",
+          "longDescription": "Our migraine treatments help reduce the frequency and intensity of migraine attacks, providing natural and lasting relief.",
+          "rating": 4.8,
+          "price": 89,
+          "duration": "50 min",
+          "benefits": ["Pain relief", "Reduced frequency of migraines", "Natural treatment"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "homeo-6",
+          "name": "Acne",
+          "icon": "🌸",
+          "description": "Treat acne naturally with homeopathy for clear, healthy skin.",
+          "longDescription": "Homeopathic treatment for acne targets the root causes of breakouts, such as hormonal imbalance or poor digestion, to promote clear skin.",
+          "rating": 4.7,
+          "price": 69,
+          "duration": "40 min",
+          "benefits": ["Clear skin", "Reduced acne scars", "Natural healing"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "homeo-7",
+          "name": "Urticaria",
+          "icon": "💢",
+          "description": "Natural remedies for urticaria (hives) to reduce itching and swelling.",
+          "longDescription": "Homeopathic treatment for urticaria helps reduce the occurrence and intensity of hives, providing relief from itching and skin irritation.",
+          "rating": 4.6,
+          "price": 55,
+          "duration": "30 min",
+          "benefits": ["Itch relief", "Reduced swelling", "Safe treatment"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "homeo-8",
+          "name": "Eczema",
+          "icon": "🌱",
+          "description": "Treat eczema symptoms with homeopathic remedies.",
+          "longDescription": "Our eczema treatments focus on soothing dry, itchy skin, reducing inflammation, and promoting healing without the use of steroids.",
+          "rating": 4.8,
+          "price": 79,
+          "duration": "45 min",
+          "benefits": ["Itch relief", "Skin healing", "No side effects"],
+          "availableSlots": ["Morning", "Afternoon", "Evening"]
+        },
+        {
+          "id": "homeo-9",
+          "name": "Psoriasis",
+          "icon": "🔥",
+          "description": "Alleviate psoriasis symptoms and improve skin health with homeopathy.",
+          "longDescription": "Homeopathic remedies for psoriasis aim to reduce flare-ups, control inflammation, and improve skin condition naturally.",
+          "rating": 4.7,
+          "price": 79,
+          "duration": "45 min",
+          "benefits": ["Reduced flare-ups", "Improved skin health", "Natural treatment"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "homeo-10",
+          "name": "Lichen Planus",
+          "icon": "🔬",
+          "description": "Treat lichen planus symptoms with homeopathic treatments.",
+          "longDescription": "Homeopathy can help reduce the discomfort and symptoms of lichen planus, including itching and skin lesions, through natural remedies.",
+          "rating": 4.8,
+          "price": 69,
+          "duration": "40 min",
+          "benefits": ["Itch relief", "Reduced lesions", "Natural healing"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "homeo-11",
+          "name": "PCOS",
+          "icon": "♀️",
+          "description": "Manage PCOS symptoms with homeopathic remedies.",
+          "longDescription": "Homeopathic treatment for PCOS helps regulate hormones, reduce ovarian cysts, and address symptoms like irregular periods and weight gain.",
+          "rating": 4.7,
+          "price": 99,
+          "duration": "50 min",
+          "benefits": ["Hormonal balance", "Weight management", "Regulated menstrual cycles"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "homeo-12",
+          "name": "Menstrual Complaints",
+          "icon": "🌸",
+          "description": "Treat menstrual complaints with natural homeopathic remedies.",
+          "longDescription": "Our homeopathic remedies help alleviate pain, regulate cycles, and reduce other menstrual symptoms such as bloating and mood swings.",
+          "rating": 4.6,
+          "price": 59,
+          "duration": "30 min",
+          "benefits": ["Pain relief", "Regulated cycles", "Natural symptom control"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "homeo-13",
+          "name": "Arthritis",
+          "icon": "🦴",
+          "description": "Manage arthritis pain and inflammation naturally with homeopathy.",
+          "longDescription": "Homeopathy offers a natural approach to reduce joint pain, inflammation, and stiffness caused by arthritis, improving mobility and quality of life.",
+          "rating": 4.8,
+          "price": 89,
+          "duration": "50 min",
+          "benefits": ["Pain relief", "Reduced inflammation", "Improved mobility"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "homeo-14",
+          "name": "Piles",
+          "icon": "💩",
+          "description": "Homeopathic treatment for piles to reduce pain and discomfort.",
+          "longDescription": "Our homeopathic remedies for piles aim to reduce pain, swelling, and bleeding, providing a natural and effective solution for this condition.",
+          "rating": 4.7,
+          "price": 69,
+          "duration": "30 min",
+          "benefits": ["Pain relief", "Reduced swelling", "No side effects"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "homeo-15",
+          "name": "Gastritis",
+          "icon": "🍽️",
+          "description": "Treat gastritis symptoms with homeopathic remedies.",
+          "longDescription": "Homeopathy offers a holistic approach to treat gastritis, helping to reduce inflammation and improve digestive health.",
+          "rating": 4.7,
+          "price": 69,
+          "duration": "40 min",
+          "benefits": ["Reduced inflammation", "Improved digestion", "Natural relief"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "homeo-16",
+          "name": "IBS",
+          "icon": "💩",
+          "description": "Alleviate IBS symptoms naturally with homeopathy.",
+          "longDescription": "Homeopathic treatment for IBS can help regulate bowel movements, reduce pain, and improve digestion without the need for harsh medication.",
+          "rating": 4.6,
+          "price": 75,
+          "duration": "45 min",
+          "benefits": ["Pain relief", "Improved digestion", "Natural treatment"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "homeo-17",
+          "name": "Renal Calculi",
+          "icon": "🦠",
+          "description": "Homeopathic treatment for kidney stones and renal calculi.",
+          "longDescription": "Our homeopathic remedies for renal calculi aim to dissolve kidney stones naturally and reduce pain during urination.",
+          "rating": 4.8,
+          "price": 89,
+          "duration": "50 min",
+          "benefits": ["Pain relief", "Reduced stone formation", "Improved kidney health"],
+          "availableSlots": ["Morning", "Afternoon"]
+        },
+        {
+          "id": "homeo-18",
+          "name": "Spondylitis",
+          "icon": "🧍‍♂️",
+          "description": "Manage spondylitis pain with homeopathic remedies.",
+          "longDescription": "Homeopathic treatment for spondylitis helps reduce inflammation in the spine, easing pain and improving flexibility.",
+          "rating": 4.7,
+          "price": 79,
+          "duration": "45 min",
+          "benefits": ["Pain relief", "Improved flexibility", "Natural treatment"],
+          "availableSlots": ["Morning", "Afternoon"]
+        }
+      ]
+    }
+
+    },
+    "timeSlots": {
+      "Morning": ["9:00 AM", "10:00 AM", "11:00 AM", "11:30 AM"],
+      "Afternoon": ["1:00 PM", "2:00 PM", "3:00 PM", "3:30 PM", "4:00 PM"],
+      "Evening": ["5:00 PM", "6:00 PM", "7:00 PM", "7:30 PM"]
+    },
+    "promocodes": [
+      {
+        "code": "NEWCLIENT",
+        "discount": 20,
+        "description": "20% off on your first visit"
+      },
+      {
+        "code": "WEEKEND",
+        "discount": 15,
+        "description": "15% off on weekend appointments"
+      },
+      {
+        "code": "BRIDAL2024",
+        "discount": 25,
+        "description": "25% off on bridal packages"
+      },
+      {
+        "code": "SUMMER",
+        "discount": 10,
+        "description": "10% off on all laser treatments"
+      }
+    ]
+  }
